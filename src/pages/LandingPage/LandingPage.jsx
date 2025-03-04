@@ -24,6 +24,7 @@ import CallToAction from './call-to-action/CallToAction';
 import FrequentQns from './Faqs/FrequentQns';
 import Technologies from './Technologies/Technologies';
 import LocationContact from './Location-Contact/Location-Contact';
+import WorkingProcess from './working-process/Working-Process';
 
 export default function LandingPage(){
     const dispatch = useDispatch();
@@ -131,6 +132,7 @@ export default function LandingPage(){
 
         {!isModalShown && <Industries/>}
 
+        {!isModalShown && <WorkingProcess/>}
         {!isModalShown && <Technologies/>}
 
         {!isModalShown && <LocationContact/>}

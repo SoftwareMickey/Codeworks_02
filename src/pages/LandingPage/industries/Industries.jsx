@@ -1,7 +1,7 @@
 export default function Industries(){
-    return <section className="pt-10 mb-10">
+    return <section className="pt-12 mb-4">
         <p className="text-center font-inter text-slate-800">Industry leaders trust Codeworks to grow their businesses</p>
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-12">
             <div className="mx-16">
                 {/* <img alt="pic"/> */}
                 <p className="text-[20px] font-inter font-bold text-slate-600">Bingwa Hybrid</p>

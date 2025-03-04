@@ -25,6 +25,7 @@ import FrequentQns from './Faqs/FrequentQns';
 import Technologies from './Technologies/Technologies';
 import LocationContact from './Location-Contact/Location-Contact';
 import WorkingProcess from './working-process/Working-Process';
+import WhyChooseUs from './why-us/Why-Choose-Us';
 
 export default function LandingPage(){
     const dispatch = useDispatch();
@@ -133,6 +134,7 @@ export default function LandingPage(){
         {!isModalShown && <Industries/>}
 
         {!isModalShown && <WorkingProcess/>}
+        {!isModalShown && <WhyChooseUs/>}
         {!isModalShown && <Technologies/>}
 
         {!isModalShown && <LocationContact/>}

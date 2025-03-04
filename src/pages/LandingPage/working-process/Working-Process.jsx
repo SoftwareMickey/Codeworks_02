@@ -1,8 +1,8 @@
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 export default function WorkingProcess(){
-    return <section className="py-10">
-        <p className="text-center text-[30px] font-inter font-bold text-slate-800">How We Work</p>
+    return <section className="py-16">
+        <p className="text-center text-[30px] font-inter font-bold text-slate-800">Our working process</p>
         <p className="mt-4 font-inter text-[14px] w-[80%] text-center mx-auto text-slate-600 mb-12">At CodeWorks, we follow a structured yet flexible approach to ensure that every project is delivered efficiently, on time, and to the highest quality standards. Our process is designed to turn ideas into powerful digital solutions while keeping you involved at every stage.</p>
 
         <div className="flex justify-center space-x-10">

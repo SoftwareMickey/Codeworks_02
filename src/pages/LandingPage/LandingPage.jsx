@@ -21,6 +21,7 @@ import VideoPlayer from './animes/AnimeVideo';
 import NewsLetter from '../reusable/NewsLetter';
 import Industries from './industries/Industries';
 import CallToAction from './call-to-action/CallToAction';
+import FrequentQns from './Faqs/FrequentQns';
 
 export default function LandingPage(){
     const dispatch = useDispatch();
@@ -127,6 +128,7 @@ export default function LandingPage(){
 
 
         {!isModalShown && <Industries/>}
+        {!isModalShown && <FrequentQns/>}
 
         {!isModalShown && <CallToAction/>}
         {!isModalShown && <NewsLetter/>}

@@ -20,6 +20,7 @@ import CustomFooter from '../reusable/CustomFooter';
 import VideoPlayer from './animes/AnimeVideo';
 import NewsLetter from '../reusable/NewsLetter';
 import Industries from './industries/Industries';
+import CallToAction from './call-to-action/CallToAction';
 
 export default function LandingPage(){
     const dispatch = useDispatch();
@@ -127,6 +128,7 @@ export default function LandingPage(){
 
         {!isModalShown && <Industries/>}
 
+        {!isModalShown && <CallToAction/>}
         {!isModalShown && <NewsLetter/>}
         {!isModalShown && <CustomFooter/>}
         

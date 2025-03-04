@@ -5,7 +5,7 @@ export default function NewsLetter(){
 
     const [isFocused, setIsFocused] = useState(false);
 
-    return <section className="pt-10 bg-slate-100 w-full pb-10">
+    return <section className="py-16 bg-white w-full">
         <div className="flex justify-between w-[90%] mx-auto mb-6">
             <div>
                 <p className="font-inter font-bold text-[20px]">Join our newsletter to 
@@ -22,7 +22,8 @@ export default function NewsLetter(){
                     />
                 </div>
                 <div className="ml-4">
-                    <button className="bg-[#6cc727] px-4 py-2 rounded-full text-white font-inter text-[13px]">Subscribe</button>
+                    {/* <button className="bg-[#6cc727] px-4 py-2 rounded-full text-white font-inter text-[13px]">Subscribe</button> */}
+                    <button className="bg-[midnightblue] px-4 py-2 rounded-full text-white font-inter text-[13px]">Subscribe</button>
                 </div>
             </div>
         </div>

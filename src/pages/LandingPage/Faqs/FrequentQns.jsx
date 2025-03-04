@@ -33,13 +33,13 @@ export default function FrequentQns(){
                 </div>
                 <p className='text-[13px] font-inter text-slate-600'>The timeline for developing a website or mobile app depends on various factors such as the complexity of the project, the features required, and the client&apos;s responsiveness in providing feedback.</p>
             </div>
-            <div className='w-[60%]'>
+            {/* <div className='w-[60%]'>
                 <div className='flex justify-between mb-2'>
                     <p className='font-inter text-[14px] font-bold'>What industries do you work with?</p>
                     <MdOutlineKeyboardArrowDown className='text-slate-600 mt-1'/>
                 </div>
                 <p className='text-[13px] font-inter text-slate-600'>We work with businesses across multiple industries.</p>
-            </div>
+            </div> */}
             <div className='w-[60%]'>
                 <div className='flex justify-between mb-2'>
                     <p className='font-inter text-[14px] font-bold'>Can you develop a project based on my idea?</p>
@@ -53,20 +53,20 @@ export default function FrequentQns(){
                 We rigorously test your product to ensure a flawless launch.
                 We provide maintenance, updates, and improvements as needed.</p>
             </div>
-            <div className='w-[60%]'>
+            {/* <div className='w-[60%]'>
                 <div className='flex justify-between mb-2'>
                     <p className='font-inter text-[14px] font-bold'>What technologies do you use?</p>
                     <MdOutlineKeyboardArrowDown className='text-slate-600 mt-1'/>
                 </div>
                 <p className='text-[13px] font-inter text-slate-600'>We use the latest and most reliable technologies to develop high-quality software solutions,</p>
-            </div>
-            <div className='w-[60%]'>
+            </div> */}
+            {/* <div className='w-[60%]'>
                 <div className='flex justify-between mb-2'>
                     <p className='font-inter text-[14px] font-bold'>How much does software development cost?</p>
                     <MdOutlineKeyboardArrowDown className='text-slate-600 mt-1'/>
                 </div>
                 <p className='text-[13px] font-inter text-slate-600'>The cost of development depends on the complexity, features, and timeline of your project.</p>
-            </div>
+            </div> */}
             <div className='w-[60%]'>
                 <div className='flex justify-between mb-2'>
                     <p className='font-inter text-[14px] font-bold'>How do I get started with CodeWorks?</p>

@@ -4,7 +4,7 @@ export default function ContactsForm(){
 
     return <div className='flex flex-col items-center justify-center min-h-screen'>
         <div className='p-16 w-full max-w-4xl'>
-            <form className='w-full'>
+            <div className='w-full'>
                 <div className='flex flex-col md:flex-row'>
                     <div className='flex flex-col w-full md:w-1/2 space-y-6 mt-2'>
 
@@ -76,7 +76,7 @@ export default function ContactsForm(){
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
         <div className="bg-gradient-to-b from-white to-slate-200 h-[25vh] w-full"/>
 </div>

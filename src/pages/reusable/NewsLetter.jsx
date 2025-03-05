@@ -5,7 +5,7 @@ export default function NewsLetter(){
 
     const [isFocused, setIsFocused] = useState(false);
 
-    return <section className="py-16 bg-white w-full">
+    return <section className="py-16 bg-gradient-to-b from-white to-slate-200 w-full">
         <div className="flex justify-between w-[90%] mx-auto mb-6">
             <div>
                 <p className="font-inter font-bold text-[20px]">Join our newsletter to 

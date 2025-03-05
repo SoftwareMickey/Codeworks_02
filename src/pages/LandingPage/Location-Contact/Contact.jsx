@@ -24,7 +24,7 @@ export default function Contacts(){
             <p className="text-[13px] font-inter text-slate-600">Prefer to communicate via email? Drop us a message, and our team will get back to you as soon as possible. </p>
             <a href='https://wa.me/+254727937157' className="flex mt-2">
                 <GoMail size={20} className='mr-2'/>
-                <p className='text-[13px] font-medium font-inter text-slate-600'>Chat</p>
+                <p className='text-[13px] font-medium font-inter text-slate-600'>Email</p>
             </a>            
         </div>
 

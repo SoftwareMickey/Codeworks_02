@@ -22,6 +22,7 @@
     "libphonenumber-js": "^1.11.11",
     "mapbox-gl": "^3.10.0",
     "mongoose": "^8.6.2",
+    "motion": "^12.4.10",
     "nodemailer": "^6.9.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

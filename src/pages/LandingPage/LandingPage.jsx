@@ -7,8 +7,6 @@ import twitter from './assets/twitter.png';
 import send from '../assets/gmail.png';
 import whats from './assets/whatsapp.png';
 
-import vector from './assets/vector.png';
-
 import { FaBars } from 'react-icons/fa'
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 
@@ -100,9 +98,9 @@ export default function LandingPage(){
                     </div>}
             </div>
             {!isModalShown && <div className='w-[40%] sm:w-full sm:my-6 sm:hidden'>
-                <img src={vector} alt='pic' className='h-[85vh]'/>
+                {/* <img src={vector} alt='pic' className='h-[85vh]'/> */}
                 <VideoPlayer/>
-                <div className='absolute bottom-2 right-[5%] bg-white shadow-custom-medium py-4 px-8 rounded'>
+                <div className='absolute bottom-2 right-[5%] bg-white shadow-custom py-4 px-8 rounded'>
                     <Link to = 'https://wa.me/+254727937157' className='flex mb-4'>
                         <img src={whats} alt='pic' className='h-6'/>
                         

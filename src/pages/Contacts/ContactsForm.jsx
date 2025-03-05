@@ -49,8 +49,8 @@ export default function ContactsForm(){
     };
 
 
-    return <div className='flex items-center justify-center min-h-screen p-8'>
-        <div className='p-8 w-full max-w-4xl'>
+    return <div className='flex flex-col items-center justify-center min-h-screen'>
+        <div className='p-16 w-full max-w-4xl'>
             <form className='w-full' onSubmit={handleSubmit}>
                 <div className='flex flex-col md:flex-row'>
                     <div className='flex flex-col w-full md:w-1/2 space-y-6 mt-2'>
@@ -96,7 +96,7 @@ export default function ContactsForm(){
                         <div>
                             <p className='text-blue-900 text-[13px] font-inter font-semibold mb-2'>Services</p>
                             <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
-                                {['App Development', 'Web Development', 'Management System', 'Bulky SMS', 'USSD Codes'].map((service) => (
+                                {['App Development', 'Web Development', 'Management System', 'Bulk SMS', 'USSD Applications'].map((service) => (
                                     <div key={service} className='flex items-center'>
                                         <input
                                             type='checkbox'
@@ -135,5 +135,6 @@ export default function ContactsForm(){
                 </div>
             </form>
         </div>
+        <div className="bg-gradient-to-b from-white to-slate-200 h-[25vh] w-full"/>
 </div>
 }

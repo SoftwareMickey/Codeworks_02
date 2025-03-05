@@ -4,7 +4,7 @@ import video1 from '../../../../public/animation/mobile.mp4';
 import video2 from '../../../../public/animation/mobile1.mp4';
 import video3 from '../../../../public/animation/mobile2.mp4';
 
-const VideoPlayer = () => {
+const CustomVideoPlayer = () => {
     
   // const videos = [
   //   '../../../../public/animation/mobile.mp4',
@@ -33,7 +33,7 @@ const VideoPlayer = () => {
         <video 
             ref={videoRef}
             onEnded={handleVideoEnd} 
-            className="absolute ml-10 w-[30%] h-[80vh] object-cover bottom-10 rounded pointer-events-none sm:w-full sm:h-[50vh]"
+            className="ml-10 w-[24%] h-[80vh] shadow-custom-medium object-cover bg-blue-100 pointer-events-none sm:w-full sm:h-[50vh]"
             autoPlay 
             muted 
             playsInline>
@@ -43,4 +43,4 @@ const VideoPlayer = () => {
   );
 };
 
-export default VideoPlayer;
+export default CustomVideoPlayer;

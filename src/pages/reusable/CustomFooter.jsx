@@ -5,7 +5,6 @@ import linkedIn from '../assets/linkedin.png';
 import loc from '../assets/location.png';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaTwitter, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
-import call1 from '../assets/call1.png';
 import { FaXTwitter } from 'react-icons/fa6';
 
 export default function CustomFooter() {
@@ -15,12 +14,12 @@ export default function CustomFooter() {
 
     return (
         <footer className='bg-slate-200 py-6 text-green-800'>
-            <div className=' mx-10 flex justify-evenly sm:flex-col'>
+            <div className='mx-10 md:flex md:justify-evenly'>
                 
-                <div className='flex-1 min-w-[200px] min-h-[30vh]'>
-                    <img src={logo} alt='Logo' className='h-14 mb-4 right-8' />
+                <div className='flex-1 min-w-[200px] md:min-h-[30vh] mb-4'>
+                    <img src={logo} alt='Logo' className='h-14 mb-4 sm:hidden'/>
 
-                    <div className='flex items-center mb-4 ml-4'>
+                    <div className='flex items-center mb-4 ml-4 sm:ml-0'>
                         <div >
                         <a href='https://wa.me/+254727937157' aria-label='WhatsApp'>
                         <FaWhatsapp size={20} className='mr-2 text-green-800'/>
@@ -30,7 +29,7 @@ export default function CustomFooter() {
                         </div>
                         <p className='text-sm font-semibold'>Chat with us</p>
                     </div>
-                    <div className='flex items-center mb-4 ml-4'>
+                    <div className='flex items-center mb-4 ml-4 sm:ml-0'>
                         
                         <a href='https://www.linkedin.com/in/codeworks-solutions-a076a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' aria-label='Twitter'>
                         <FaTwitter size={20} className='mr-2 text-green-800'/>
@@ -38,7 +37,7 @@ export default function CustomFooter() {
                         </a>
                         <p className='text-sm font-semibold'>Message us on X</p>
                     </div>
-                    <div className='flex items-center mb-3 ml-4'>
+                    <div className='flex items-center mb-3 ml-4 sm:ml-0'>
                     <a href='mailto:jemutaipicoty@gmail.com' aria-label='Email'>
                         <FaEnvelope size={20} className='mr-2 text-green-800'/>
                         
@@ -49,8 +48,8 @@ export default function CustomFooter() {
                 
                 
 
-                <div className='mt-4 flex justify-between'>
-                    <div className='flex-1 min-w-[200px] mb-2 min-h-[30vh]'>
+                <div className='mt-4 flex justify-between sm:flex-col'>
+                    <div className='flex-1 min-w-[200px] mb-2 sm:mb-4 md:min-h-[30vh]'>
                         <p className='font-bold mb-2'>Social Info</p>
                         <p className='text-[12px] mb-2 font-inter font-medium'>Our social media links</p>
                         <div className='flex gap-4 mb-8'>
@@ -68,7 +67,7 @@ export default function CustomFooter() {
                         </div>
                     </div>
 
-                    <div className='flex-1 min-w-[200px] mb-2'>
+                    <div className='flex-1 min-w-[200px] mb-2 sm:mb-4'>
                         <p className='font-bold mb-2'>Quick Links</p>
                         <ul className='list-disc list-inside'>
                             <li className='mb-3'>
@@ -115,7 +114,7 @@ export default function CustomFooter() {
 
             <hr />
 
-            <div className='bg-slate-200 text-green-800 py-4 text-center text-sm mt-6 font-medium'>
+            <div className='bg-slate-200 text-green-800 py-4 text-center text-sm mt-6 font-medium sm:hidden'>
                 <p>&copy; {year} CODEWORKS, Designed and Developed by CODEWORKS</p>
             </div>
         </footer>

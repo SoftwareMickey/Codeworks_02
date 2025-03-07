@@ -6,13 +6,13 @@ export default function NewsLetter(){
     const [isFocused, setIsFocused] = useState(false);
 
     return <section className="py-16 bg-gradient-to-b from-white to-slate-200 w-full">
-        <div className="flex justify-between w-[90%] mx-auto mb-6">
+        <div className="flex justify-between w-[90%] mx-auto mb-6 sm:flex-col sm:ml-10">
             <div>
-                <p className="font-inter font-bold text-[20px]">Join our newsletter to 
-                <br/>keep up to date with us!</p>
+                <p className="font-inter font-bold text-[20px] sm:mb-4 sm:text-center">Join our newsletter to 
+                <br className="sm:hidden"/>keep up to date with us!</p>
             </div>
-            <div className="flex">
-                <div className="flex border bg-slate-100  border-slate-300 rounded-full h-max">
+            <div className="flex sm:flex-col">
+                <div className="flex border bg-slate-100  border-slate-300 rounded-full h-max sm:w-[80%] sm:mb-4">
                     <FaRegUser className="ml-4 mr-2 mt-2 text-slate-400"/>
                     <input 
                         placeholder="i.e johndoe@gmail.com"

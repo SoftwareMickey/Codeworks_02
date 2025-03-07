@@ -4,7 +4,7 @@ import { GoMail } from "react-icons/go";
 import { MdOutlineLocationOn } from "react-icons/md";
 
 export default function Contacts(){
-    return <section className="w-[50%] flex flex-col items-center">
+    return <section className="w-[50%] flex flex-col items-center sm:w-[90%] sm:mb-6">
         <div>
             <p className="text-center font-inter text-[30px] font-bold text-slate-800 mt-3 mb-6">Get in touch</p>
             <p className="font-inter text-slate-600 text-[13px] text-center">Ready to help your company scale faster? Let&apos;s chat about we can help.</p>
@@ -22,7 +22,7 @@ export default function Contacts(){
         <div className="flex flex-col items-start mt-6 w-[80%]">
             <p className="font-inter text-[14px] font-semibold mb-2">Email Support</p>
             <p className="text-[13px] font-inter text-slate-600">Prefer to communicate via email? Drop us a message, and our team will get back to you as soon as possible. </p>
-            <a href='https://wa.me/+254727937157' className="flex mt-2">
+            <a href='mailto:info@codeworkssoultion.com' className="flex mt-2">
                 <GoMail size={20} className='mr-2'/>
                 <p className='text-[13px] font-medium font-inter text-slate-600'>Email</p>
             </a>            

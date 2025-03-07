@@ -40,7 +40,7 @@ export default function LandingPage(){
         navigator("/contacts#contacts-section")
     }
 
-    return <section id='landing'>
+    return <section id='landing' className='sm:flex sm:flex-col'>
         <MobileNavigation/>
 
         <div className='sm:visible md:hidden my-4 flex mx-4 justify-between'>
@@ -48,7 +48,7 @@ export default function LandingPage(){
             <NavLink to='contacts' className='font-barlow'>Contacts</NavLink>
         </div>
 
-        <div className='flex ml-14 mr-10 sm:flex-col sm:mx-2'>
+        <div className='flex md:ml-14 md:mr-10 sm:m-0'>
             <div className='w-[60%] sm:w-full'>
                     <div className="mt-6 mx-4">
                         <p className='font-inter border text-[13px] bg-slate-100 w-max px-4 py-2 rounded-full'>Your Success, Our Priority</p>

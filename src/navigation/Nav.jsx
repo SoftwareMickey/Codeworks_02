@@ -25,51 +25,47 @@ export default function MobileNavigation() {
     }
 
     function OverLay() {
-        return <div className="relative z-[100] h-[100vh] bg-blue-800">
+        return <div className="fixed w-full z-[100] h-[100vh] bg-white">
             <div className="flex justify-between p-4">
-                <div className="flex items-center">
+                <div className="flex justify-between">
                     <img src={logo} alt="pic" className='h-6'/>
-                    <p className="text-[14px] font-cambo ml-2 text-white">Quality. Secure. Scalable</p>
+                    <p className="text-[14px] font-cambo ml-2 text-slate-600">Quality. Secure. Scalable</p>
                 </div>
                 <div className="mt-1" onClick={closeModalHandler}>
                     <img src={close} alt="pic" className="h-4 text-white"/>
                 </div>
             </div>
-            <div className='flex flex-col mt-6'>
+            <div className='flex flex-col mt-6 space-y-6'>
                 <div className="flex ml-4">
                     <img src={home} alt="pic" className="h-4 mt-3"/>
-                    <NavLink to='' className={(isActive) => isActive ? "ml-2 text-white my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end onClick={closeModalHandler}>Home</NavLink>
+                    <NavLink to='' className={(isActive) => isActive ? "ml-2 text-slate-600 my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end onClick={closeModalHandler}>Home</NavLink>
                 </div>
                 <hr className="mx-4 border-gray-600"/>
 
                 <div className="flex ml-4 mt-4">
                     <img src={services} alt="pic" className="h-4 mt-3"/>
-                    <NavLink to='services' className={(isActive) => isActive ? "ml-2 text-white my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end>Our Services</NavLink>
+                    <NavLink to='services' className={(isActive) => isActive ? "ml-2 text-slate-600 my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end>Our Services</NavLink>
                 </div>
                 <hr className="mx-4 border-gray-600"/>
 
                 <div className="flex ml-4 mt-4">
                     <img src={cont} alt="pic" className="h-4 mt-3"/>
-                    <NavLink to='contacts' className={(isActive) => isActive ? "ml-2 text-white my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end>Contacts</NavLink>
+                    <NavLink to='contacts' className={(isActive) => isActive ? "ml-2 text-slate-600 my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end>Contacts</NavLink>
                 </div>
                 <hr className="mx-4 border-gray-600"/>
 
                 <div className="flex ml-4 mt-4">
                     <img src={about} alt="pic" className="h-4 mt-3"/>
-                    <NavLink to='about' className={(isActive) => isActive ? "ml-2 text-white my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end>About Us</NavLink>
+                    <NavLink to='about' className={(isActive) => isActive ? "ml-2 text-slate-600 my-2 font-cambo" : 'mx-4 font-pacifico my-6 text-gray-300'} end>About Us</NavLink>
                 </div>
                 <hr className="mx-4 border-gray-600"/>
             </div>
 
             <div className="mt-20 mx-4 flex items-center justify-center">
-                <button className="px-4 py-[6px] rounded-full border border-white text-white font-cambo w-[80%]">Call: +254789098754</button>
+                <a className="px-4 py-[8px] rounded-full border border-slate-600 text-slate-600 font-inter w-[80%] text-center" href="tel:+254789098754">Call: +254789098754</a>
             </div>
-            <div className="mt-4 mx-4 flex items-center justify-center">
-                <button className="px-4 py-[8px] rounded-full bg-black text-white font-cambo w-[80%]">info@codeworkssolution.co.ke</button>
-            </div>
-
-            <div>
-                <p className="fixed bottom-4 ml-4 font-lily text-gray-300">&copy; CodeWorks Solutions 2024</p>
+            <div className="mt-10 mx-4 flex items-center justify-center">
+                <button className="px-4 py-[8px] rounded-full bg-black text-white font-inter w-[80%]">info@codeworkssolution.co.ke</button>
             </div>
         </div>
     }

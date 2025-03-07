@@ -17,8 +17,8 @@ export default function Technologies() {
 
   return (
     <section className="py-10 flex flex-col items-center overflow-hidden">
-      <p className="font-inter text-[30px] text-slate-800 font-bold">Technologies & Tools We Use</p>
-      <p className="w-[80%] font-inter text-[14px] mt-4 text-slate-600 text-center leading-7">
+      <p className="font-inter text-[30px] text-slate-800 font-bold px-4 text-center">Technologies & Tools We Use</p>
+      <p className="w-[80%] sm:w-[90%] font-inter text-[14px] mt-4 text-slate-600 text-center leading-7">
         At CodeWorks, we leverage the latest, most powerful, and scalable technologies to build high-performance software solutions for businesses of all sizes. Our expertise spans across frontend and backend development, mobile applications, cloud computing, artificial intelligence, and more. We carefully select tools that ensure speed, security, and seamless scalability, empowering businesses to stay ahead in the digital era.
       </p>
 

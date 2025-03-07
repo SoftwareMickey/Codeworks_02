@@ -65,7 +65,7 @@ export default function FrequentQns() {
             <motion.p className="text-center font-inter font-bold text-[34px] text-slate-800" variants={faqItemVariants}>
                 Frequently Asked Questions
             </motion.p>
-            <motion.p className="text-center text-slate-700 text-[13px] font-inter font-medium mt-4" variants={faqItemVariants}>
+            <motion.p className="text-center text-slate-700 text-[13px] font-inter font-medium mt-4 sm:w-[90%] sm:mx-auto" variants={faqItemVariants}>
                 These are the most commonly asked questions about CodeWorks.
             </motion.p>
 
@@ -76,7 +76,7 @@ export default function FrequentQns() {
                         key={index}
                         src={img}
                         alt="pic"
-                        className="h-8 mx-3 cursor-pointer hover:scale-105 transition-transform"
+                        className="h-8 sm:h-6 mx-3 cursor-pointer hover:scale-105 transition-transform"
                         whileHover={{ scale: 1.1 }}
                     />
                 ))}
@@ -87,7 +87,7 @@ export default function FrequentQns() {
                 {data.map((faq, index) => (
                     <motion.div 
                         key={index} 
-                        className="w-[60%]" 
+                        className="w-[60%] sm:w-[80%]" 
                         variants={faqItemVariants}
                     >
                         <div 

@@ -52,5 +52,5 @@ export default function MapComponent(){
     }
   }, []);
 
-  return<div className="w-[40%] sm:w-[90%] sm:mx-auto sm:h[30vh] h-[100vh] rounded-xl overflow-hidden" ref={mapContainerRef}/>
+  return<div className="w-[40%] sm:w-[90%] sm:mx-auto sm:h-[30vh] h-[100vh] rounded-xl overflow-hidden" ref={mapContainerRef}/>
 }

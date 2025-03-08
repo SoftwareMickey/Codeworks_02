@@ -72,7 +72,7 @@ export default function AboutPage(){
                 <button className='text-white bg-[midnightblue] px-4 py-2 text-[13px] font-inter rounded-full mt-4'>Get Started</button>
             </div>
 
-            <div className='flex flex-col mt-12 w-[40%] sm:w-[90%] sm:mx-auto lg:hidden'>
+            <div className='flex flex-col mt-12 w-[40%] sm:w-[90%] sm:mx-auto md:hidden'>
                 <BiSolidQuoteAltLeft className="text-green-800 ml-1 mb-4"/>
                 <hr className='w-[20%] mb-8 border-2 border-green-600 ml-2'/>
                 <div className='flex'>

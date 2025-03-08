@@ -65,7 +65,7 @@ export default function Services(){
                 <p className='font-inter text-[13px] text-green-600 leading-7 mt-4 font-medium'>Ready to Take Your Online Presence to the Next Level?</p>
                 <button className='bg-blue-900 px-4 py-[6px] text-white font-inter text-[13px] mt-4 rounded-full'>Get In Touch</button>
             </div>
-            <div className='w-[40%] sm:w-[80%] lg:hidden'>
+            <div className='w-[40%] sm:w-[80%] md:hidden'>
                 <img src={web} alt='pic' className='w-[100%] border rounded-lg mt-6  sm:w-full'/>
             </div>
         </div>

@@ -13,7 +13,7 @@ export default function Contacts(){
         <div className="flex flex-col items-start mt-6 w-[80%]">
             <p className="font-inter text-[14px] font-semibold mb-2">Chat to sales</p>
             <p className="text-[13px] font-inter text-slate-600 sm:leading-6">Have a quick question? Need real-time assistance? Our support team is just a message away! Connect with us via live chat and get instant responses to your queries.</p>
-            <a href='https://wa.me/+254727937157' className="flex mt-2">
+            <a href='https://wa.me/+254748481418' className="flex mt-2">
                 <FaWhatsapp size={20} className='mr-2'/>
                 <p className='text-[13px] font-medium font-inter text-slate-600'>Chat</p>
             </a>            
@@ -22,7 +22,7 @@ export default function Contacts(){
         <div className="flex flex-col items-start mt-6 w-[80%]">
             <p className="font-inter text-[14px] font-semibold mb-2">Email Support</p>
             <p className="text-[13px] font-inter text-slate-600 leading-6">Prefer to communicate via email? Drop us a message, and our team will get back to you as soon as possible. </p>
-            <a href='mailto:info@codeworkssoultion.com' className="flex mt-2">
+            <a href='mailto:patrickkivuvo@gmail.com' className="flex mt-2">
                 <GoMail size={20} className='mr-2'/>
                 <p className='text-[13px] font-medium font-inter text-slate-600'>Email</p>
             </a>            
@@ -33,7 +33,7 @@ export default function Contacts(){
             <p className="text-[13px] font-inter text-slate-600 leading-6">Sometimes, a direct conversation is the best way to get things sorted. Give us a call, and our friendly team will assist you with all your queries</p>
             <a href="tel:+254727937157" className="flex mt-2">
                 <FaPhoneAlt size={20} className='mr-2'/>
-                <p className='text-[13px] font-medium font-inter text-slate-600'>+254727937157</p>
+                <p className='text-[13px] font-medium font-inter text-slate-600'>+254748481418</p>
             </a>            
         </div>
 

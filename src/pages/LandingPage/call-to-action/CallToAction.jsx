@@ -3,8 +3,8 @@ export default function CallToAction(){
 
         <p className="text-center text-slate-300 mt-8 font-inter text-[14px]">Get a Free Consultation Today!</p>
         <div className=" mt-4 flex flex-col items-center text-slate-300 font-inter text-[13px] space-y-2">
-            <p>Call Us: (+254) 712-345-678</p>
-            <p>Email: contact@codeworks.com</p>
+            <p>Call Us: (+254) 748-481-418</p>
+            <p>Email: patrickkivuvo@gmail.com</p>
             <p>Let’s Talk: Schedule a Meeting</p>
         </div>
 

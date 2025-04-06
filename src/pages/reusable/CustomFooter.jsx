@@ -38,7 +38,7 @@ export default function CustomFooter() {
                         <p className='text-sm font-semibold'>Message us on X</p>
                     </div>
                     <div className='flex items-center mb-3 ml-4 sm:ml-0'>
-                    <a href='mailto:jemutaipicoty@gmail.com' aria-label='Email'>
+                    <a href='mailto:patrickkivuvo@gmail.com' aria-label='Email'>
                         <FaEnvelope size={20} className='mr-2 text-green-800'/>
                         
                         </a>
@@ -63,7 +63,7 @@ export default function CustomFooter() {
                         <p className='font-bold mb-2'>Contact Us</p>
                         <div className='flex items-center mb-4'>
                             <FaPhoneAlt className='text-green-800'/>
-                            <a href="tel:+254727937157" className='text-sm font-semibold'>+254727937157</a>
+                            <a href="tel:+254748481418" className='text-sm font-semibold'>+254748481418</a>
                         </div>
                     </div>
 

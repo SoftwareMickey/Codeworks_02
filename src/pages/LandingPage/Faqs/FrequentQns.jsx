@@ -23,7 +23,7 @@ export default function FrequentQns() {
         },
         {
             question: "How do I get started with CodeWorks?",
-            answer: "Getting started is easy! Follow these steps:\n\n 1.Fill out our contact form or email us at contact@codeworks.com.\n 2️.We’ll schedule a call to understand your requirements.\n 3️.We’ll send you a detailed project plan, timeline, and budget estimate.\n 4️.Once we agree, we begin designing and developing your software.\n 5️.After deployment, we provide ongoing maintenance and updates."
+            answer: "Getting started is easy! Follow these steps:\n\n 1.Fill out our contact form or email us at patrickkivuvo@gmail.com.\n 2️.We’ll schedule a call to understand your requirements.\n 3️.We’ll send you a detailed project plan, timeline, and budget estimate.\n 4️.Once we agree, we begin designing and developing your software.\n 5️.After deployment, we provide ongoing maintenance and updates."
         }
     ]
 

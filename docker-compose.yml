@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4590:80"
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+      - /app/node_modules
